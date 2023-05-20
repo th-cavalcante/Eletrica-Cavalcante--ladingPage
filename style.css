@@ -1,0 +1,266 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat'
+}
+header{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    background: black;
+    color:#fff;
+    width: 100%;
+    height: 100px;
+    
+}
+#logomarca{
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 20px;
+    box-shadow: 0px 0px 10px 1px rgb(252, 251, 185);     
+}
+#list-nav{
+    display: flex;
+}
+#list-nav li{
+    margin: 20px;
+    list-style-type: none;
+   
+}
+#list-nav a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'montserrat';
+    font-weight: 500
+}
+
+.img-whatsapp{
+    width: 50px;
+    margin: 5px;
+}
+ #container-menu-toogle{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url(img/foto\ capa.jpeg);
+    height: auto;
+    background-position: center;
+    background-size: cover; 
+    padding: 20px  
+}
+#menu-toogle{ 
+    margin-top: 130px; 
+}
+.btn-menu-toogle{
+    width: 90%;
+    height: 60px;
+    font-family: 'montserrat';
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    background: black;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 10px 1px rgb(252, 251, 185);  
+    opacity: 0.8;   
+}
+.btn-menu-toogle:hover{
+    cursor: pointer;
+    opacity: 1;
+   
+}
+.btn-menu-toogle i{
+   font-size: 18px;
+   background-image: linear-gradient(180deg,rgb(225, 48, 108), rgb(253, 36, 76) );
+   border-radius: 5px;
+   margin: 5px;
+}
+
+#list-btn li{
+    list-style-type: none;
+}
+
+/*Aqui inicia o container de servicos*/
+#container-servicos{
+    height: auto;
+    background: black;
+    color: #fff;
+    padding: 20px;
+}
+.box-servicos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(14, 14, 13);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 1px 1px 10px 5px rgb(252, 251, 185);         
+}
+.box-imgservicos01{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: url(img/eletricista01.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.box-imgservicos02{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: url(img/eletricista02.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.box-imgservicos03{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: url(img/eletricista03.jpeg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.box-imgservicos04{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: url(img/eletricista04.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.box-imgservicos05{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: url(img/eletricista05.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.box-imgservicos06{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: url(img/eletricista06.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+
+.box-servicos h2{
+    color: rgb(238, 219, 45);
+    text-align: center;
+    font-size: 20px;
+    text-align: center;
+    max-width: 20%;
+}
+.box-servicos p{
+    color: #fff;
+    font-weight: 500;
+    max-width: 60%;
+}
+/*Aqui encerra o container de servicos*/
+
+/*Aqui inicia o container de sobre nós*/
+ #conteudo-sobrenos{
+    margin: 10px;
+    height: auto; 
+    color: #f7f7f7;
+    font-weight: 500;
+}
+#container-sobrenos{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url(img/foto\ capa.jpeg);
+    background-position: center;
+    background-size: cover; 
+    padding: 15px;
+}
+/*Aqui encerra o container de sobre nós*/
+
+footer{
+    height: auto;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(96, 245, 10);
+    font-weight: 500;
+    background: rgb(0, 0, 0);
+    padding: 20px;   
+}
+footer #p-propaganda{
+    color: #fff;
+}
+footer button{
+    background: rgb(46, 197, 46);
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'montserrat';
+    font-weight: 600;
+}
+footer button:hover{
+    cursor: pointer;
+
+}
+
+/*-------------------------------------------------Responsividade-------------------------------------------*/
+
+@media  (max-width: 450px) {
+    #nav-menu{
+        display: none;
+    }
+   
+    header{
+       height: 80px;
+    }
+    #logomarca{
+        width: 70px;
+        border-radius: 50%;
+        margin-left: 30px;
+    }
+    #container-menu-toogle{
+        height: 400px;
+    }
+    #menu-toogle{ 
+        margin-top: 100px; 
+    }
+    .btn-menu-toogle{
+        opacity: none;   
+    }
+
+    .box-servicos{
+        flex-direction: column;      
+    }
+    .box-servicos h2{
+        color: rgb(238, 219, 45);
+        text-align: center;
+        font-size: 18px;
+        text-align: center;
+        max-width: 100%;
+    }
+    .box-servicos p{
+        color: #fff;
+        font-weight: 500;
+        max-width: 100%;
+    }
+    #container-sobrenos{
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+        url(img/foto\ capa.jpeg);
+        background-position: center;
+        background-size: cover; 
+        padding: 15px;
+    }
+}
+
+
+
+
+
+
+
+
