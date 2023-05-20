@@ -19,6 +19,17 @@ header{
     margin-left: 20px;
     box-shadow: 0px 0px 10px 1px rgb(252, 251, 185);     
 }
+#txt-slogan i{
+    color:yellow;
+    font-size: 25px;
+}
+#txt-slogan{
+    font-style: italic;
+}
+#box-slogan-mobile{
+    display: none;
+}
+
 #list-nav{
     display: flex;
 }
@@ -224,6 +235,17 @@ footer button:hover{
         border-radius: 50%;
         margin-left: 30px;
     }
+    #box-slogan{
+        display: none;
+    }
+    #box-slogan-mobile{
+        display: block;
+        color:#fff;
+        font-size: 14px;
+    }
+    #box-slogan-mobile i{
+        font-size: 19px;
+    }
     #container-menu-toogle{
         height: 600px;
     }
@@ -257,6 +279,10 @@ footer button:hover{
         background-position: center;
         background-size: cover; 
         padding: 15px;
+    }
+    #conteudo-sobrenos h1{
+        color: gold;
+        font-size: 20px;
     }
     #txt-sobrenos{
         font-size: 18px;
