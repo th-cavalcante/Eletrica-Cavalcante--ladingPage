@@ -258,6 +258,9 @@ footer button:hover{
         background-size: cover; 
         padding: 15px;
     }
+    #txt-sobrenos{
+        font-size: 18px;
+    }
 }
 
 
