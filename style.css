@@ -7,7 +7,7 @@ header{
     display: flex;
     justify-content: space-between ;
     align-items: center;
-    background: black;
+    background: rgb(22, 22, 22);
     color:#fff;
     width: 100%;
     height: 115px;
@@ -67,7 +67,7 @@ header{
     color: #fff;
     font-weight: 600;
     font-size: 18px;
-    background: black;
+    background: #202123;
     outline: none;
     border: none;
     box-shadow: 1px 1px 10px 1px rgb(252, 251, 185);  
@@ -79,7 +79,7 @@ header{
 }
 #btn-whatsapp{
     background-color: #25d366;
-    background-image: linear-gradient(180deg,#20cf60, #078033 );
+    background-image: linear-gradient(180deg,#20cf60, #04702c );
     font-size: 22px;
     border:2px solid rgb(6, 158, 6);
     border-radius: 5px 5px 0px 0px;
