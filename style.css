@@ -25,6 +25,7 @@ header{
 }
 #txt-slogan{
     font-style: italic;
+    margin-top: 40px;
 }
 #box-slogan-mobile{
     display: none;
@@ -116,10 +117,13 @@ header{
     display: none;
     justify-content: center;
     align-items: center;
-    background-color: ;
+    background-color: none ;
     box-shadow: 1px 1px 10px 1px rgb(252, 251, 185);
     border-radius: 15px;
     
+  }
+  #txt-slide-nbr{
+    font-size: 12px;
   }
   
   .slide.active {
