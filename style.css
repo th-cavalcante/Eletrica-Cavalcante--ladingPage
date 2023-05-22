@@ -26,6 +26,7 @@ header{
 #txt-slogan{
     font-style: italic;
     margin-top: 40px;
+    margin-top: 15px;
 }
 #box-slogan-mobile{
     display: none;
@@ -106,7 +107,7 @@ header{
     font-size: 20px;
     font-family: 'montserrat';
     color: #fff;
-    margin-top: 60px;
+    margin-top: 30px;
     
   }
   
@@ -320,6 +321,9 @@ footer button:hover{
         height: 70px;  
         font-size: 20px;
     }
+    .carrocel {
+        margin-top: 60px;   
+      }
 
     .box-servicos{
         flex-direction: column;      
