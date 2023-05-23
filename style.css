@@ -7,7 +7,7 @@ header{
     display: flex;
     justify-content: space-between ;
     align-items: center;
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)),
     url(img/capa\ header\ 01.webp);
     background-position: center;
     background-size: cover;
