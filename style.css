@@ -27,6 +27,7 @@ header{
     font-style: italic;
     margin-top: 40px;
     margin-top: 15px;
+   
 }
 #box-slogan-mobile{
     display: none;
@@ -55,15 +56,21 @@ header{
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
     url(img/foto\ capa.jpeg);
     height: auto;
-    background-position: center;
+    flex-direction: column;
     background-size: cover; 
-    padding: 20px  
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #menu-toogle{ 
-    margin-top: 130px; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .btn-menu-toogle{
-    width: 90%;
+    width: 95%;
     height: 60px;
     font-family: 'montserrat';
     color: #fff;
@@ -95,7 +102,12 @@ header{
    border-radius: 5px;
    margin: 5px;
 }
-
+#list-btn{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 #list-btn li{
     list-style-type: none;
 }
@@ -307,7 +319,7 @@ footer button:hover{
     #box-slogan-mobile{
         display: block;
         color:#fff;
-        font-size: 14px;
+        font-size: 12px;
     }
     #box-slogan-mobile i{
         font-size: 23px;
@@ -315,14 +327,18 @@ footer button:hover{
     }
     #container-menu-toogle{
         height: 600px;
+       
+       
     }
     #menu-toogle{ 
-        margin-top: 100px; 
+        margin-top: 80px; 
     }
     .btn-menu-toogle{
         opacity: none; 
         height: 70px;  
         font-size: 20px;
+        width: 90%;
+        
     }
     .carrocel {
         margin-top: 60px;   
