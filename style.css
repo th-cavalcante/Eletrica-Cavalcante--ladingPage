@@ -332,6 +332,7 @@ footer button:hover{
     }
     #menu-toogle{ 
         margin-top: 60px; 
+        width: 420px;
     }
     .btn-menu-toogle{
         opacity: none; 
@@ -341,7 +342,7 @@ footer button:hover{
         
     }
     .carrocel {
-        margin-top: 60px;   
+        margin-top: 50px;   
       }
 
     .box-servicos{
