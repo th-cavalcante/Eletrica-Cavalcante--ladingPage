@@ -1,14 +1,15 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'montserrat'
+    font-family: 'montserrat';
+    background-color: #f7f7f7;
 }
 header{
     display: flex;
     justify-content: space-between ;
     align-items: center;
-    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)),
-    url(img/capa\ header\ 01.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url(img/capa\ header\ 04.jpg);
     background-position: center;
     background-size: cover;
     color:#fff;
