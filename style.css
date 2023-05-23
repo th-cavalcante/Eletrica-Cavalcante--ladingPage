@@ -7,11 +7,10 @@ header{
     display: flex;
     justify-content: space-between ;
     align-items: center;
-    background: rgb(10, 10, 10);
+    background: rgb(22, 22, 22);
     color:#fff;
     width: 100%;
     height: 115px;
-    
 }
 #logomarca{
     width: 100px;
@@ -19,6 +18,7 @@ header{
     margin-left: 20px;
     box-shadow: 0px 0px 10px 1px rgb(252, 251, 185);     
 }
+
 #txt-slogan i{
     color:yellow;
     font-size: 25px;
@@ -55,7 +55,7 @@ header{
  #container-menu-toogle{
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
     url(img/foto\ capa.jpeg);
-    height: auto;
+    height: 600px;
     flex-direction: column;
     background-size: cover; 
     padding: 30px;
@@ -112,7 +112,7 @@ header{
     list-style-type: none;
 }
 
-/*Aqui inicia o SLIDE*/
+/*Aqui inicia a animaçãoE*/
 .carrocel {
     display: flex;
     overflow: hidden;
@@ -164,7 +164,7 @@ header{
       opacity: 0;
     }
   }
-/*Aqui encerra o SLIDE*/
+/*Aqui encerra a animação*/
 
 
 /*Aqui inicia o container de servicos*/
@@ -276,7 +276,7 @@ footer{
     font-size: 13px;
     color: rgb(96, 245, 10);
     font-weight: 500;
-    background: rgb(0, 0, 0);
+    background: rgb(22, 22, 22);
     padding: 20px;   
 }
 footer #p-propaganda{
