@@ -55,7 +55,7 @@ header{
  #container-menu-toogle{
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
     url(img/foto\ capa.jpeg);
-    height: 600px;
+    height: 550px;
     flex-direction: column;
     background-size: cover; 
     padding: 30px;
