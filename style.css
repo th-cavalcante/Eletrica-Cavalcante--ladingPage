@@ -320,7 +320,9 @@ footer button:hover{
         display: block;
         color:#fff;
         font-size: 13px;
+        margin-top: -30px;
     }
+   
     #box-slogan-mobile i{
         font-size: 23px;
         color:rgb(241, 57, 10);
