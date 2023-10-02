@@ -111,7 +111,9 @@ body {
   }
   #main nav {
     position: absolute;
-    background-color: #242933;
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
     width: 100%;
     display: flex;
     justify-content: center;

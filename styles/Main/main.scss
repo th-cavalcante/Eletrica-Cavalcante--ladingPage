@@ -134,7 +134,8 @@ body{
         }
         nav{
             position: absolute;
-            background-color: #242933;
+            background-color: transparent;
+            backdrop-filter: blur(10px);
             width: 100%;
             display: flex;
             justify-content: center;
