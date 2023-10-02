@@ -1,0 +1,205 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+/*#242933*/
+
+body{
+    max-width: 1280px;
+    font-family: 'montserrat';
+}
+
+#main{
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 1px 1px 8px rgba(0,0,0,0.2);
+        height: 100px;
+        
+        position: fixed;
+        width: 100%;
+       
+        
+    }
+    .box-img{
+        img{
+            width: 180px;
+            margin-top: -40px;
+            margin-left: 50px;
+            
+        }
+    }
+    .nav-menu{
+        display: flex;
+        ul{
+            display: flex;
+            align-items: center;
+            margin-right: 150px;
+            a{
+                text-decoration: none;
+                color: #fff;
+                li{
+                    list-style-type: none;
+                    padding-left: 20px;
+                }
+            }
+
+        }
+    }
+    .box-icone{
+        display: none;
+    }
+
+    .page-main{
+        background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url('/img/background1.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .content-main{
+            color: #fff;
+            h1{
+                font-size: 40px;
+                padding-bottom: 20px;
+            }
+            h2{
+                text-align: center;
+               
+               
+            }
+            p{
+                text-align: center;
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+            a{
+                text-decoration: none;
+                .btn-main{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: auto;
+                    width: 300px;
+                    height: 50px;
+                    gap: 5px;
+                    font-size: 18px;
+                    font-weight: 600;
+                    background-color: #3d9422;
+                    border: none;
+                    border-radius: 3px;
+                    color: #fff;       
+                }
+            }
+            
+        }
+       
+    }
+}
+
+.btn-whatsapp{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    background-color: #49d61e;
+    z-index: 9999;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    i{
+        font-size: 40px;
+    }
+
+}
+
+@media(max-width: 490px){
+    #main{
+        
+        .box-img{
+            img{
+                width: 120px;
+                margin-top: -10px;
+                margin-left: 10px;
+                
+            }
+        }
+        nav{
+            position: absolute;
+            background-color: #242933;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+            top: -200px;
+            transition: all 0.3s;
+            ul{  
+                margin: 0 auto;
+                flex-direction: column;
+                margin-right: 150px;
+                display: flex;
+                gap: 10px;
+                a{
+                    li{
+                        font-size: 17px;
+                    }
+                }
+    
+            }
+        }&.open{
+            top: 0;
+
+        }
+
+
+        .box-icone{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 10px;
+            i{
+                color: #fff;
+                font-size: 30px;
+            }
+        }
+    
+        .page-main{
+           
+            .content-main{
+                color: #fff;
+                h1{
+                    text-align: center;
+                    font-size: 30px;
+                    padding-bottom: 20px;
+                }
+                h2{
+                    text-align: center;
+                    font-size: 13px;
+                }
+                p{
+                    text-align: center;
+                    padding-top: 50px;
+                    padding-bottom: 50px;
+                }
+                a{
+                    text-decoration: none;
+              
+                }
+                
+            }
+           
+        }
+    }
+    
+    
+
+}
