@@ -27,12 +27,26 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 50px;
   padding-right: 50px;
 }
 #main .nav-menu a {
   text-decoration: none;
   color: #fff;
+  position: relative;
+  font-size: 18px;
+}
+#main .nav-menu a::after {
+  content: " ";
+  display: block;
+  height: 2px;
+  background: #fff;
+  transition: width 0.5s ease;
+  width: 0;
+}
+#main .nav-menu a:hover:after {
+  width: 100%;
+  left: 0;
 }
 #main .box-icone {
   display: none;
