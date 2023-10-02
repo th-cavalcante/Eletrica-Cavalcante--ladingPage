@@ -15,6 +15,9 @@ body {
   justify-content: space-between;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
   height: 100px;
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
   position: fixed;
   width: 100%;
 }
@@ -29,6 +32,7 @@ body {
 #main .nav-menu ul {
   display: flex;
   align-items: center;
+  padding-right: 80px;
 }
 #main .nav-menu ul a {
   text-decoration: none;
