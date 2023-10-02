@@ -25,19 +25,14 @@ body {
 }
 #main .nav-menu {
   display: flex;
-}
-#main .nav-menu ul {
-  display: flex;
+  justify-content: center;
   align-items: center;
-  padding-right: 80px;
+  gap: 20px;
+  padding-right: 50px;
 }
-#main .nav-menu ul a {
+#main .nav-menu a {
   text-decoration: none;
   color: #fff;
-}
-#main .nav-menu ul a li {
-  list-style-type: none;
-  padding-left: 20px;
 }
 #main .box-icone {
   display: none;
@@ -110,30 +105,24 @@ body {
     margin-left: 10px;
   }
   #main .nav-menu {
-    position: absolute;
-    background-color: transparent;
-    -webkit-backdrop-filter: blur(10px);
-            backdrop-filter: blur(10px);
-    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-    top: -200px;
-    transition: all 0.3s;
-  }
-  #main .nav-menu ul {
-    padding-right: 0px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 0px;
-    gap: 15px;
-    margin: 0 auto;
+    gap: 25px;
+    padding-right: 0px;
+    padding: 30px;
+    position: absolute;
+    top: -200px;
+    background-color: transparent;
+    width: 100%;
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+    transition: all 0.3s;
   }
-  #main .nav-menu ul a li {
-    font-size: 17px;
-    text-transform: uppercase;
+  #main .nav-menu a {
+    text-decoration: none;
+    color: #fff;
     font-weight: 500;
   }
   #main .open {
