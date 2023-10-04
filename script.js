@@ -12,6 +12,7 @@ function showMenu(){
     }else{
         nav.classList.add('open')
         icon.innerHTML= `close`
+      
        
     }
     

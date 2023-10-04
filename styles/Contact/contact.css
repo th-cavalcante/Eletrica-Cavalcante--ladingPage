@@ -118,9 +118,9 @@
   #contact .container-contact .content-contact a {
     padding-bottom: 4rem;
     text-align: center;
-    z-index: 0;
   }
   #contact .container-contact .content-contact a button {
+    z-index: 995;
     width: 280px;
     height: 40px;
     font-size: 18px;
