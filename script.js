@@ -1,5 +1,4 @@
-
-let icon = document.getElementById('btn-icon')
+const icon = document.getElementById('btn-icon')
 icon.addEventListener('click', () => {
     showMenu();
 })
@@ -16,4 +15,12 @@ function showMenu(){
        
     }
     
+}
+
+
+function closeMenu(){
+    if(showMenu()){
+        showMenu.remove()
+    }
+
 }

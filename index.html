@@ -15,6 +15,7 @@
     <!--Styles-->
     <link rel="stylesheet" href="styles/Main/main.css">
     <link rel="stylesheet" href="styles/Servicos/services.css">
+    <link rel="stylesheet" href="styles/About/about.css">
     <!--Icones-->
     <link rel="stylesheet" href="icones/fontawesome/css/all.min.css">
 
@@ -30,10 +31,10 @@
 
             <nav class="nav-menu">
                 
-                    <a href="#main">Home</a>
-                    <a href="#services">Serviços</a>
-                    <a href="">Sobre</a>
-                    <a href="">Contatos</a>
+                    <a href="#main" onclick="closeMenu()">Home</a>
+                    <a href="#services" onclick="closeMenu()">Serviços</a>
+                    <a href="" onclick="closeMenu()">Sobre</a>
+                    <a href="" onclick="closeMenu()">Contatos</a>
                
             </nav>
             
@@ -58,7 +59,7 @@
     </div>
 
     <section id="services">
-        <h1>Serviços</h1>
+        <h1><i class="fa-solid fa-screwdriver-wrench"></i>Serviços</h1>
         <div class="container-cards-services">
             
             <div class="cards-service">
@@ -123,6 +124,16 @@
 
         </div>
 
+    </section>
+
+    <section id="about">
+        <h1>Um pouco sobre nós<i class="fa-solid fa-people-group"></i></h1>
+        <div class="content-about">
+            <p>A Elétrica Cavalcante é uma empresa especializada em serviços de elétrica residencial. Desde a sua fundação, temos nos dedicado a fornecer soluções confiáveis e de qualidade para todas as necessidades elétricas dos nossos clientes. Com uma equipe de profissionais altamente qualificados e experientes, estamos comprometidos em garantir a segurança e a eficiência dos sistemas elétricos residenciais. Seja para instalações elétricas, reparos, manutenção preventiva ou melhorias, estamos prontos para atender a todas as demandas. Nossa missão é proporcionar tranquilidade e satisfação aos nossos clientes, oferecendo serviços de alta qualidade, sempre priorizando a segurança e a conformidade com as normas técnicas vigentes.</p>
+            <div class="img-about">
+                <img src="img/logomarca.png" alt="">
+            </div>
+        </div>
     </section>
 
 

@@ -4,11 +4,16 @@
     
     background-color: #0D1117;
     h1{
-        color: #fff;
+        color: #04B0F0;
         text-align: center;
         padding-top: 2rem;
         padding-bottom: 2rem;
         font-size: 35px;
+        font-weight: 500;
+        
+        i{
+            padding-right: 10px;
+        }
     }
     .container-cards-services{
         padding-bottom: 2rem;
@@ -39,6 +44,7 @@
                 font-size: 20px;
                 text-align: center;
                 padding-bottom: 1rem;
+                color: #4dc3ee;
             }
             p{
                 font-size: 18px;
@@ -65,7 +71,7 @@
             text-align: center;
             padding-top: 2rem;
             padding-bottom: 2rem;
-            font-size: 35px;
+            font-size: 28px;
         }
         .container-cards-services{
             padding-bottom: 2rem;
