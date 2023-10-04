@@ -84,7 +84,7 @@
 
 @media (max-width: 490px) {
   #contact {
-    height: 600px;
+    height: auto;
     padding-top: 2rem;
     background-color: #eeeff1;
   }
@@ -136,13 +136,16 @@
   #contact .container-contact .content-contact a button:hover {
     opacity: 1;
   }
+  #contact .container-contact .box-form {
+    padding-bottom: 2rem;
+  }
   #contact .container-contact .box-form form {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
   #contact .container-contact .box-form form input {
-    width: 350px;
+    width: auto;
     height: 40px;
     font-family: "montserrat";
     border: 2px solid rgba(0, 0, 0, 0.3);

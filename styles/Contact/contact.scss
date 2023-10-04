@@ -98,7 +98,7 @@
     
 
 #contact{
-    height: 600px;
+    height: auto;
     padding-top: 2rem;
     background-color: #eeeff1;
    
@@ -150,12 +150,13 @@
             }
         }
         .box-form{
+            padding-bottom: 2rem;
             form{
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
                 input{
-                    width: 350px;
+                    width: auto;
                     height: 40px;
                     font-family: 'montserrat';
                     border: 2px solid rgba(0,0,0,0.3);
