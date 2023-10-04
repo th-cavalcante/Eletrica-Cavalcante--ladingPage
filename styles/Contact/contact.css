@@ -1,0 +1,177 @@
+#contact {
+  height: 600px;
+  padding-top: 2rem;
+  background-color: #eeeff1;
+}
+#contact h1 {
+  text-align: center;
+  color: #31b3e2;
+  padding-bottom: 4rem;
+  font-size: 28px;
+  font-weight: 500;
+}
+#contact .container-contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+}
+#contact .container-contact .content-contact {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 30px;
+}
+#contact .container-contact .content-contact p i {
+  padding-right: 10px;
+}
+#contact .container-contact .content-contact a button {
+  width: 280px;
+  height: 40px;
+  font-size: 18px;
+  border: 1px solid #E7342E;
+  border-radius: 3px;
+  background-image: linear-gradient(180deg, #E7342E, #BE00AF);
+  color: #fff;
+  opacity: 0.8;
+  cursor: pointer;
+}
+#contact .container-contact .content-contact a button i {
+  padding-right: 5px;
+}
+#contact .container-contact .content-contact a button:hover {
+  opacity: 1;
+}
+#contact .container-contact .box-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#contact .container-contact .box-form form input {
+  width: 350px;
+  height: 40px;
+  font-family: "montserrat";
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  font-size: 17px;
+  outline: none;
+}
+#contact .container-contact .box-form form input:focus {
+  border: 2px solid #31b3e2;
+}
+#contact .container-contact .box-form form textarea {
+  font-family: "montserrat";
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  font-size: 17px;
+  outline: none;
+}
+#contact .container-contact .box-form form textarea:focus {
+  border: 2px solid #31b3e2;
+}
+#contact .container-contact .box-form form button {
+  height: 40px;
+  border: none;
+  font-size: 20px;
+  font-family: "montserrat";
+  background-image: linear-gradient(180deg, #31b3e2, #186b8a);
+  color: #fff;
+  opacity: 0.8;
+  cursor: pointer;
+}
+#contact .container-contact .box-form form button:hover {
+  opacity: 1;
+}
+
+@media (max-width: 490px) {
+  #contact {
+    height: 600px;
+    padding-top: 2rem;
+    background-color: #eeeff1;
+  }
+  #contact h1 {
+    text-align: center;
+    color: #31b3e2;
+    padding-bottom: 4rem;
+    font-size: 28px;
+    font-weight: 500;
+  }
+  #contact .container-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+  }
+  #contact .container-contact .content-contact {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 16px;
+  }
+  #contact .container-contact .content-contact p {
+    text-align: center;
+    font-weight: 500;
+  }
+  #contact .container-contact .content-contact p i {
+    padding-right: 10px;
+  }
+  #contact .container-contact .content-contact a {
+    padding-bottom: 4rem;
+    text-align: center;
+  }
+  #contact .container-contact .content-contact a button {
+    width: 280px;
+    height: 40px;
+    font-size: 18px;
+    border: 1px solid #E7342E;
+    border-radius: 3px;
+    background-image: linear-gradient(180deg, #E7342E, #BE00AF);
+    color: #fff;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  #contact .container-contact .content-contact a button i {
+    padding-right: 5px;
+  }
+  #contact .container-contact .content-contact a button:hover {
+    opacity: 1;
+  }
+  #contact .container-contact .box-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #contact .container-contact .box-form form input {
+    width: 350px;
+    height: 40px;
+    font-family: "montserrat";
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    font-size: 17px;
+    outline: none;
+  }
+  #contact .container-contact .box-form form input:focus {
+    border: 2px solid #31b3e2;
+  }
+  #contact .container-contact .box-form form textarea {
+    font-family: "montserrat";
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    font-size: 17px;
+    outline: none;
+  }
+  #contact .container-contact .box-form form textarea:focus {
+    border: 2px solid #31b3e2;
+  }
+  #contact .container-contact .box-form form button {
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    font-family: "montserrat";
+    background-image: linear-gradient(180deg, #31b3e2, #186b8a);
+    color: #fff;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  #contact .container-contact .box-form form button:hover {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=contact.css.map */

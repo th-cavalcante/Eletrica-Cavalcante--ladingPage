@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="styles/Main/main.css">
     <link rel="stylesheet" href="styles/Servicos/services.css">
     <link rel="stylesheet" href="styles/About/about.css">
+    <link rel="stylesheet" href="styles/Contact/contact.css">
     <!--Icones-->
     <link rel="stylesheet" href="icones/fontawesome/css/all.min.css">
 
@@ -35,7 +36,7 @@
                     <a href="#main" onclick="closeMenu()">Home</a>
                     <a href="#services" onclick="closeMenu()">Serviços</a>
                     <a href="#about" onclick="closeMenu()">Sobre</a>
-                    <a href="" onclick="closeMenu()">Contatos</a>
+                    <a href="#contact" onclick="closeMenu()">Contatos</a>
                
             </nav>
             
@@ -138,8 +139,31 @@
     </section>
 
 
+    <section id="contact">
+        <h1>Entre em contato</h1>
+        <div class="container-contact">
+            <div class="content-contact">
+                <p><i class="fa-solid fa-phone"></i>(11) 910306758</p>
+                <p><i class="fa-solid fa-envelope"></i>contato@eletricacavalcante.com.br</p>
+                <a href=""><button><i class="fa-brands fa-instagram"></i>Instagram</button></a>
+
+            </div>
+            <div class="box-form">
+                <form action="https://formsubmit.co/your@email.com" method="POST">
+
+                    <input type="text" name="name" required placeholder="Nome:">
+                    <input type="email" name="email" required  placeholder="Telefone/Whatsapp">
+                    <textarea name="mensage" id="mensage" cols="30" rows="8"></textarea>
+                    <button type="submit">Enviar</button>
+               </form>
+
+            </div>
+        </div>
+    </section>
+
+
     
     <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-</body>
+    
+    </body>
 </html>
