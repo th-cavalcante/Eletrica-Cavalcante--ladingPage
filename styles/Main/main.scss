@@ -49,13 +49,14 @@ body{
             height: 2px;
             background: #fff;
             transition: width 0.5s ease ;
-            width: 0;
-            
+            width: 0;    
+            background-color: #31b3e2;
         }
         a:hover:after{
             width: 100%;
-            left: 0;
+            left: 0; 
         }
+       
     }
       
     
@@ -67,8 +68,8 @@ body{
     }
 
     .page-main{
-        background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-        url('/img/background1.jpg');
+        background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+        url('/img/backgroundeletrica.jpg');
         background-position: center;
         background-size: cover;
         height: 600px;
@@ -83,6 +84,10 @@ body{
             }
             h2{
                 text-align: center;
+                font-size: 20px;
+                i{
+                    padding-right: 10px;
+                }
                
                
             }
@@ -90,6 +95,7 @@ body{
                 text-align: center;
                 padding-top: 50px;
                 padding-bottom: 50px;
+                
             }
             a{
                 text-decoration: none;
@@ -130,6 +136,7 @@ body{
     border-radius: 50%;
     i{
         font-size: 40px;
+        color: #fff;
     }
 
 }
