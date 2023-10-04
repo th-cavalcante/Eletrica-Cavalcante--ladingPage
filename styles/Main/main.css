@@ -97,6 +97,10 @@ body {
   border: none;
   border-radius: 3px;
   color: #fff;
+  opacity: 0.8;
+}
+#main .page-main .content-main .btn-main:hover {
+  opacity: 1;
 }
 
 .btn-whatsapp {

@@ -112,8 +112,12 @@ body{
                     background-color: #3d9422;
                     border: none;
                     border-radius: 3px;
-                    color: #fff;       
+                    color: #fff;
+                    opacity: 0.8;       
                 }
+            }
+            .btn-main:hover{
+                opacity: 1;
             }
             
         }
