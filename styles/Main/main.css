@@ -125,6 +125,7 @@ body {
     margin-left: 10px;
   }
   #main .nav-menu {
+    z-index: 999;
     display: flex;
     flex-direction: column;
     justify-content: center;

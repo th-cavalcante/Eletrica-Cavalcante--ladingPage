@@ -118,6 +118,7 @@
   #contact .container-contact .content-contact a {
     padding-bottom: 4rem;
     text-align: center;
+    z-index: 0;
   }
   #contact .container-contact .content-contact a button {
     width: 280px;
@@ -127,14 +128,11 @@
     border-radius: 3px;
     background-image: linear-gradient(180deg, #E7342E, #BE00AF);
     color: #fff;
-    opacity: 0.8;
+    opacity: 1;
     cursor: pointer;
   }
   #contact .container-contact .content-contact a button i {
     padding-right: 5px;
-  }
-  #contact .container-contact .content-contact a button:hover {
-    opacity: 1;
   }
   #contact .container-contact .box-form {
     padding-bottom: 2rem;
