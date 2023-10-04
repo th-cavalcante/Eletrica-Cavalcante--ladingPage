@@ -1,0 +1,25 @@
+
+
+#footer{
+    text-align: center;
+    padding-top: 1rem;
+    background-color: #1c1e22;
+    color: #fff;
+    .my-link{
+        font-size: 15px;
+        a{
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+    }
+}
+
+@media(max-width: 490px){
+    #footer{
+        font-size: 12px;
+        .my-link{
+            font-size: 12px;
+        }
+    }
+}
