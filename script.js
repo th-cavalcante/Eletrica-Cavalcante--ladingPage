@@ -25,3 +25,18 @@ function closeMenu(){
     }
 
 }
+
+const iconTop = document.querySelector('.icon-top');
+window.addEventListener('scroll', () => {
+    const scrollPosition = window.scrollY;
+    const scrollThreshold = 500;
+    if (scrollPosition > scrollThreshold) {
+        iconTop.style.display = 'block';
+      } else {
+        iconTop.style.display = 'none';
+      }
+})
+
+function topPage() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }

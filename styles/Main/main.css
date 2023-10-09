@@ -122,6 +122,29 @@ body {
   color: #fff;
 }
 
+.icon-top {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 9999;
+  left: 20px;
+  bottom: 20px;
+  position: fixed;
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid #31b3e2;
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+.icon-top i {
+  color: #31b3e2;
+  font-size: 30px;
+}
+
 @media (max-width: 490px) {
   #main .box-img img {
     width: 120px;
