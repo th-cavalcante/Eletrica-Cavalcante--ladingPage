@@ -150,7 +150,7 @@ body {
   #main .box-img img {
     width: 120px;
     margin-top: -10px;
-    margin-left: 10px;
+    margin-left: -80px;
   }
   #main .nav-menu {
     z-index: 999;
