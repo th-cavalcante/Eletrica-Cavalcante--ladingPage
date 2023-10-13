@@ -3,13 +3,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;  
+    max-width: 1980px;
+    margin: 0 auto;
+    
+
+   
 }
 
 /*#242933*/
 
 body{
-    max-width: 1280px;
-    font-family: 'montserrat';
+    font-family: 'montserrat'; 
+  ;
+    
 }
 
 #main{
@@ -21,7 +27,7 @@ body{
         position: fixed;
         width: 100%;
        
-        
+          
     }
     .box-img{
         img{
@@ -99,21 +105,22 @@ body{
             }
             a{
                 text-decoration: none;
-                .btn-main{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
+                display: flex;
+               
+                .btn-main{       
                     margin: auto;
                     width: 300px;
-                    height: 50px;
-                    gap: 5px;
+                    height: 50px; 
                     font-size: 18px;
                     font-weight: 600;
                     background-color: #3d9422;
                     border: none;
                     border-radius: 3px;
                     color: #fff;
-                    opacity: 0.8;       
+                    opacity: 0.8; 
+                    i{
+                        margin: 10px;
+                    }      
                 }
             }
             .btn-main:hover{

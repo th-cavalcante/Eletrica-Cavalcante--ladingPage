@@ -2,11 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 1980px;
+  margin: 0 auto;
 }
 
 /*#242933*/
 body {
-  max-width: 1280px;
   font-family: "montserrat";
 }
 
@@ -82,15 +83,12 @@ body {
 }
 #main .page-main .content-main a {
   text-decoration: none;
+  display: flex;
 }
 #main .page-main .content-main a .btn-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: auto;
   width: 300px;
   height: 50px;
-  gap: 5px;
   font-size: 18px;
   font-weight: 600;
   background-color: #3d9422;
@@ -98,6 +96,9 @@ body {
   border-radius: 3px;
   color: #fff;
   opacity: 0.8;
+}
+#main .page-main .content-main a .btn-main i {
+  margin: 10px;
 }
 #main .page-main .content-main .btn-main:hover {
   opacity: 1;
