@@ -16,7 +16,7 @@ function showMenu(){
        
     }
     
-}
+};
 
 
 function closeMenu(){
