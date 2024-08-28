@@ -20,9 +20,11 @@ body {
   width: 100%;
 }
 #main .box-img img {
-  width: 180px;
-  margin-top: -40px;
+  width: 120px;
+  height: 120px;
+  margin: 10px;
   margin-left: 50px;
+  border-radius: 50%;
 }
 #main .nav-menu {
   display: flex;
@@ -44,7 +46,7 @@ body {
   background: #fff;
   transition: width 0.5s ease;
   width: 0;
-  background-color: #31b3e2;
+  background-color: yellow;
 }
 #main .nav-menu a:hover:after {
   width: 100%;
@@ -54,7 +56,7 @@ body {
   display: none;
 }
 #main .page-main {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/img/backgroundeletrica.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url("/img/capa(2).jpeg");
   background-position: center;
   background-size: cover;
   height: 600px;
@@ -66,8 +68,12 @@ body {
   color: #fff;
 }
 #main .page-main .content-main h1 {
-  font-size: 40px;
+  font-size: 50px;
   padding-bottom: 20px;
+  font-weight: bold;
+}
+#main .page-main .content-main h1 span {
+  color: yellow;
 }
 #main .page-main .content-main h2 {
   text-align: center;
@@ -93,15 +99,11 @@ body {
   font-weight: 600;
   background-color: #3d9422;
   border: none;
-  border-radius: 3px;
+  border-radius: 30px;
   color: #fff;
-  opacity: 0.8;
 }
 #main .page-main .content-main a .btn-main i {
   margin: 10px;
-}
-#main .page-main .content-main .btn-main:hover {
-  opacity: 1;
 }
 
 .btn-whatsapp {
