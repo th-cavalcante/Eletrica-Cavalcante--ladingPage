@@ -31,11 +31,9 @@ body{
     }
     .box-img{
         img{
-            width: 120px;
-            height: 120px;
-            margin: 10px;
+            width: 180px;
+            margin-top: -40px;
             margin-left: 50px;
-            border-radius: 50%;
             
         }
     }
@@ -45,15 +43,11 @@ body{
         align-items: center;
         gap: 50px;
         padding-right: 50px;
-      
-      
-
         a{
             text-decoration: none;
             color: #fff;
             position: relative;
             font-size: 18px;
-          
         }
         a::after{
             content: " ";
@@ -62,7 +56,7 @@ body{
             background: #fff;
             transition: width 0.5s ease ;
             width: 0;    
-            background-color: yellow;
+            background-color: #31b3e2;
         }
         a:hover:after{
             width: 100%;
@@ -80,8 +74,8 @@ body{
     }
 
     .page-main{
-        background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.1)),
-        url('/img/capa\(2\).jpeg');
+        background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+        url('/img/backgroundeletrica.jpg');
         background-position: center;
         background-size: cover;
         height: 600px;
@@ -91,12 +85,8 @@ body{
         .content-main{
             color: #fff;
             h1{
-                font-size: 50px;
+                font-size: 40px;
                 padding-bottom: 20px;
-                font-weight: bold;
-                span{
-                    color: yellow;
-                }
             }
             h2{
                 text-align: center;
@@ -126,15 +116,18 @@ body{
                     font-weight: 600;
                     background-color: #3d9422;
                     border: none;
-                    border-radius: 30px;
+                    border-radius: 3px;
                     color: #fff;
-                    
+                    opacity: 0.8; 
                     i{
                         margin: 10px;
                     }      
                 }
             }
-           
+            .btn-main:hover{
+                opacity: 1;
+            }
+            
         }
        
     }
